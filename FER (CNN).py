@@ -103,7 +103,7 @@ model.compile(Adam(lr=.0001), loss='categorical_crossentropy', metrics=['accurac
                     validation_steps=85,
                     epochs=30,callbacks=[checkpoint])
 #save the cnn model with the following name
-model.save('best_model_improved.h5')
+model.save('modelFCEXR.h5')
 os.listdir()
 #check accuracy
 scores = vmodel.evaluate(test_batches)
