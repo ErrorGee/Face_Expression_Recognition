@@ -108,4 +108,3 @@ os.listdir()
 #check accuracy
 scores = vmodel.evaluate(test_batches)
 print("Accuracy: %.2f%%" % (scores[1]*100))
-
